@@ -1,5 +1,6 @@
 import React from "react";
 import reviews from "./data";
+import Testimonial from "./components/Testimonial";
 
 const App = () => {
   return (
