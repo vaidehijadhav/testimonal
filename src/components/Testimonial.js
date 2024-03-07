@@ -1,8 +1,10 @@
 import React from "react";
+import Card from "./Card";
 
-const Testimonial = () => {
+const Testimonial = (props) => {
+    let reviews = props.reviews;
     return(
-        <Card></Card>
+        <Card review={reviews[0]}></Card>
     );
 };
 
