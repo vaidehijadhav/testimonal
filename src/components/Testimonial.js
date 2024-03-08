@@ -32,7 +32,7 @@ const Testimonial = (props) => {
 
     return(
         <div>
-            <Card review={reviews[0]}></Card>
+            <Card review = {reviews[index]}></Card>
             
                 <div className="flex text-3xl mt-5 gap-3 text-violet-300 font-bold mx-auto">
                     <button onClick={leftShiftHandler} className="cursor-pointer hover:text-violet-500">
